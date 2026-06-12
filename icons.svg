@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" style="display: none;">
+  <defs>
+    <!-- ============================================
+         SKILL CATEGORY ICONS (4) — 20×20px
+         ============================================ -->
+    
+    <!-- Circuit Bolt: ⚡ Languages & Automation -->
+    <symbol id="icon-bolt" viewBox="0 0 20 20">
+      <path d="M10 1 L2 12 L8 12 L10 19 L18 8 L12 8 Z" 
+            fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- Chain Link: 🔗 API & CI/CD -->
+    <symbol id="icon-chain" viewBox="0 0 20 20">
+      <circle cx="6" cy="10" r="3" fill="none" stroke="currentColor" stroke-width="1.2"/>
+      <circle cx="14" cy="10" r="3" fill="none" stroke="currentColor" stroke-width="1.2"/>
+      <line x1="9" y1="10" x2="11" y2="10" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- Stacked Layers: 🗃️ Data & Backend -->
+    <symbol id="icon-database" viewBox="0 0 20 20">
+      <path d="M2 6 Q2 4 10 4 Q18 4 18 6 L18 8 Q18 10 10 10 Q2 10 2 8 Z" 
+            fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+      <path d="M2 8 L2 14 Q2 16 10 16 Q18 16 18 14 L18 8" 
+            fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+      <line x1="2" y1="10" x2="18" y2="10" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+    </symbol>
+
+    <!-- Target / Bullseye: 🎯 Domain & Soft Skills -->
+    <symbol id="icon-target" viewBox="0 0 20 20">
+      <circle cx="10" cy="10" r="8" fill="none" stroke="currentColor" stroke-width="1.2"/>
+      <circle cx="10" cy="10" r="5" fill="none" stroke="currentColor" stroke-width="1.2"/>
+      <circle cx="10" cy="10" r="2" fill="currentColor"/>
+    </symbol>
+
+    <!-- ============================================
+         PROJECT ICONS (4) — 36×36px
+         ============================================ -->
+
+    <!-- Python Logo: 🐍 Python Automation Framework -->
+    <symbol id="icon-python" viewBox="0 0 36 36">
+      <path d="M8 6 Q8 6 14 6 Q16 6 16 8 L16 14 Q16 16 18 16 L24 16 Q26 16 26 18 L26 22 Q26 24 24 24 L18 24 Q16 24 16 26 L16 28 Q16 30 14 30 L8 30 Q6 30 6 28 L6 8 Q6 6 8 6 Z" 
+            fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+      <path d="M28 6 Q30 6 30 8 L30 14 Q30 16 28 16" 
+            fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+    </symbol>
+
+    <!-- Desktop Window: 🪟 Pywinauto Desktop Test Suite -->
+    <symbol id="icon-desktop" viewBox="0 0 36 36">
+      <rect x="4" y="4" width="28" height="20" rx="2" 
+            fill="none" stroke="currentColor" stroke-width="1.2"/>
+      <rect x="6" y="6" width="24" height="14" rx="1" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.6"/>
+      <circle cx="10" cy="10" r="1" fill="currentColor"/>
+      <circle cx="14" cy="10" r="1" fill="currentColor"/>
+      <line x1="10" y1="26" x2="26" y2="26" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- API Plug/Shield: 🔌 API Regression Suite -->
+    <symbol id="icon-api" viewBox="0 0 36 36">
+      <!-- Shield outline -->
+      <path d="M18 4 L26 8 L26 16 Q26 26 18 30 Q10 26 10 16 L10 8 Z" 
+            fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+      <!-- Arrow right inside -->
+      <line x1="14" y1="18" x2="22" y2="18" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+      <polygon points="22,18 20,16 20,20" fill="currentColor"/>
+    </symbol>
+
+    <!-- Line Graph: 📈 Locust Performance POC -->
+    <symbol id="icon-graph" viewBox="0 0 36 36">
+      <line x1="6" y1="28" x2="30" y2="28" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+      <line x1="6" y1="28" x2="6" y2="6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+      <polyline points="8,22 12,16 16,18 20,12 24,14 28,8" 
+                fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
+      <polygon points="28,8 28,4 32,8" fill="currentColor"/>
+    </symbol>
+
+    <!-- ============================================
+         CONTACT ICONS (4) — 28×28px
+         ============================================ -->
+
+    <!-- Envelope: ✉️ Email -->
+    <symbol id="icon-email" viewBox="0 0 28 28">
+      <rect x="2" y="6" width="24" height="16" rx="2" 
+            fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+      <path d="M2 6 L14 14 L26 6" 
+            fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- Minimalist Phone: 📱 Phone -->
+    <symbol id="icon-phone" viewBox="0 0 28 28">
+      <rect x="6" y="2" width="16" height="24" rx="2" 
+            fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+      <circle cx="14" cy="20" r="1.5" fill="currentColor"/>
+    </symbol>
+
+    <!-- LinkedIn "in" mark: 💼 LinkedIn -->
+    <symbol id="icon-linkedin" viewBox="0 0 28 28">
+      <rect x="4" y="4" width="20" height="20" rx="2" 
+            fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+      <text x="14" y="18" font-family="Arial, sans-serif" font-size="10" font-weight="bold" 
+            text-anchor="middle" fill="currentColor">in</text>
+    </symbol>
+
+    <!-- GitHub Octocat simplified: ⚡ (corrected to GitHub logo) -->
+    <symbol id="icon-github" viewBox="0 0 28 28">
+      <!-- Simplified octopus tentacles forming GitHub shape -->
+      <path d="M14 2 C8 2 4 6 4 12 C4 16 6 19 10 20 L10 26 Q10 27 11 27 L17 27 Q18 27 18 26 L18 20 C22 19 24 16 24 12 C24 6 20 2 14 2 Z" 
+            fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+      <circle cx="10" cy="14" r="1" fill="currentColor"/>
+      <circle cx="18" cy="14" r="1" fill="currentColor"/>
+    </symbol>
+
+    <!-- Info Circle: ⓘ Note icon (for certifications placeholder) -->
+    <symbol id="icon-info" viewBox="0 0 20 20">
+      <circle cx="10" cy="10" r="9" fill="none" stroke="currentColor" stroke-width="1.2"/>
+      <circle cx="10" cy="6" r="1" fill="currentColor"/>
+      <path d="M10 9 L10 15" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+    </symbol>
+  </defs>
+</svg>
