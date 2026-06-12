@@ -154,6 +154,23 @@
         card.style.transform = '';
       });
     });
+
+    // Hero avatar — global mouse-parallax tilt (signature visionOS effect)
+    // Tracks cursor position across the whole hero section, not just the avatar.
+    const heroSection = document.getElementById('hero');
+    const avatarFrame = document.querySelector('.hero-avatar-frame');
+    if (heroSection && avatarFrame) {
+      heroSection.addEventListener('pointermove', (e) => {
+        const r = heroSection.getBoundingClientRect();
+        const x = (e.clientX - r.left) / r.width - 0.5;
+        const y = (e.clientY - r.top) / r.height - 0.5;
+        avatarFrame.style.transform =
+          `rotateX(${(-y * 5).toFixed(2)}deg) rotateY(${(x * 5).toFixed(2)}deg)`;
+      });
+      heroSection.addEventListener('pointerleave', () => {
+        avatarFrame.style.transform = '';
+      });
+    }
   }
 
   /* ---------- Resume availability guard ----------
