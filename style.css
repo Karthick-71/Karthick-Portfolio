@@ -676,3 +676,21 @@ main { perspective: 1400px; }
 .stat { display: flex; flex-direction: column; justify-content: space-between; gap: 8px; }
 .stat dt { line-height: 1.45; }
 .stat dd { margin: 0; line-height: 1.1; white-space: nowrap; }
+
+/* Selected work: open-source project card */
+.oss-label { margin: 36px 0 12px; font: 600 12px var(--f-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
+.case.oss { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 28px; border-color: color-mix(in srgb, var(--accent) 40%, var(--line)); }
+.oss-main { display: flex; flex-direction: column; min-width: 0; }
+.oss-stack { margin: 6px 0 16px; }
+.oss-side { display: flex; flex-direction: column; justify-content: center; gap: 18px; padding-left: 28px; border-left: 1px dashed var(--line); min-width: 0; }
+.oss-pipe { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 0; font: 12.5px var(--f-mono); color: var(--ink-3); }
+.oss-pipe span { padding: 5px 10px; border-radius: 8px; border: 1px solid color-mix(in srgb, var(--accent) 40%, var(--line)); color: var(--accent); background: var(--accent-soft); }
+.oss-pipe i { font-style: normal; }
+.oss-links { display: flex; flex-direction: column; gap: 10px; }
+.oss-links .btn { justify-content: space-between; }
+.section-dark .oss-links .btn-ghost { background: transparent; color: var(--ink); border-color: var(--line); }
+.section-dark .oss-links .btn-ghost:hover { border-color: var(--accent); color: var(--accent); }
+@media (max-width: 920px) {
+  .case.oss { grid-template-columns: 1fr; }
+  .oss-side { padding-left: 0; padding-top: 20px; border-left: 0; border-top: 1px dashed var(--line); }
+}

@@ -26,7 +26,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="style.css?v=2026-09-24d" />
+<link rel="stylesheet" href="style.css?v=2026-09-25a" />
 <script>
   (function () {
     try {
@@ -159,7 +159,7 @@
                 <span class="id-chip" aria-hidden="true"></span>
               </div>
               <div class="id-photo">
-                <img class="avatar" src="avatar.png?v=2026-09-24d" alt="Portrait of Karthick N" width="422" height="480" loading="lazy" decoding="async" />
+                <img class="avatar" src="avatar.png?v=2026-09-25a" alt="Portrait of Karthick N" width="422" height="480" loading="lazy" decoding="async" />
                 <span class="id-check" aria-hidden="true">✓</span>
               </div>
               <p class="id-name">Karthick N</p>
@@ -385,6 +385,26 @@
           <p class="result">Manual-only checks brought into automation</p>
         </article>
       </div>
+
+      <p class="oss-label">Open source</p>
+      <article class="case oss">
+        <div class="oss-main">
+          <p class="case-tag">Personal project · GitHub</p>
+          <h3>Data-driven API test framework with cross-build test history</h3>
+          <p><span class="lbl">Problem</span> A single-build report can't tell a flaky test from a broken one, or show whether 20 red tests are 20 problems or 3.</p>
+          <p><span class="lbl">Built</span> A Python + Pytest framework with Excel-driven test cases, JSON Schema contract checks and response-time budgets against a FastAPI service. GitHub Actions publishes every run, plus a cross-build history that groups failures by root cause, to GitHub Pages.</p>
+          <ul class="chips oss-stack"><li>Python</li><li>Pytest</li><li>REST API</li><li>JSON Schema</li><li>FastAPI</li><li>GitHub Actions</li></ul>
+          <p class="result">66 tests · CI on Python 3.9 &amp; 3.12 · history on every push</p>
+        </div>
+        <div class="oss-side">
+          <p class="oss-pipe" aria-label="CI pipeline: lint, pytest, history, GitHub Pages"><span>lint</span><i>→</i><span>pytest</span><i>→</i><span>history</span><i>→</i><span>pages</span></p>
+          <div class="oss-links">
+            <a class="btn btn-primary" href="https://github.com/Karthick-71/my_api_test_framework" target="_blank" rel="noopener">View code <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+            <a class="btn btn-ghost" href="https://karthick-71.github.io/my_api_test_framework/history/" target="_blank" rel="noopener">Live test history <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+            <a class="btn btn-ghost" href="https://karthick-71.github.io/my_api_test_framework/report.html" target="_blank" rel="noopener">Latest test report <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+          </div>
+        </div>
+      </article>
     </div>
   </section>
 
@@ -468,6 +488,6 @@
   </div>
 </footer>
 
-<script src="script.js?v=2026-09-24d"></script>
+<script src="script.js?v=2026-09-25a"></script>
 </body>
 </html>
