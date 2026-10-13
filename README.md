@@ -10,7 +10,7 @@ https://karthick-71.github.io/Karthick-Portfolio/
 | `index.html` | Hero, About, Domains, Skills, Experience, Selected work, Credentials, Contact |
 | `style.css` | "Test report" theme. Sections alternate light and dark bands. The page follows the visitor's system light/dark setting until they use the toggle. |
 | `script.js` | Theme toggle, mobile menu, active-section nav, terminal type-in, scroll reveals, 3D hero and ID-card tilt, page-turn transitions, copy buttons, "Email me" chooser |
-| `Karthick-N_QA_Resume_Sep-2026-01.pdf` | Resume behind the "Download resume" buttons |
+| `Karthick-N_QA_Resume_2026-Aug.pdf` | Resume behind the "Download resume" buttons |
 | `og-image.png` | 1200x630 link-preview card (LinkedIn, WhatsApp, Slack) |
 | `avatar.png` | Portrait in the About ID card. Keep it small (about 480px on the long side). |
 
